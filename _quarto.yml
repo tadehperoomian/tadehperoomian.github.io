@@ -3,15 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "tadehperoomian.github.io"
+  title: "Tadeh Peroomian"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-      - Projects.qmd
-      - Hobbies_and_Goals.qmd
-      - Resume.qmd
+      - projects.qmd
+      - hobbies_and_goals.qmd
+      - resume.qmd
 
 format:
   html:
