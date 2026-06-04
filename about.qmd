@@ -4,11 +4,19 @@ title: "About Me"
 
 ## My Journey to Environmental Studies
 
-![](whale_shark.jpg){fig-align="right" width="35%"}
-
 As I entered my first year of college as a Biology major, I had plans to become a Veterinarian. I faced many hardships in that first year, and felt as though I did not enjoy what I was studying. Thus, over the course of that year, I changed my major multiple times trying to find something new that I loved. However, after a field studies program in Baja California for Marine Biology, I fell back in love with the subject, and applied to UCSB as an Environmental Studies major.
 
-![](baja_sunrise.jpg){fig-align="left" width="35%"}
+:::: {.columns}
+
+::: {.column width="50%"}
+![](baja_sunrise.jpg){width=100%}
+:::
+
+::: {.column width="50%"}
+![](whale_shark.jpg){width=100%}
+:::
+
+::::
 
 ## Education
 
