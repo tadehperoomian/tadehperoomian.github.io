@@ -16,8 +16,8 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      dark: solar
+      light: minty
     css: styles.css
     toc: true
 
