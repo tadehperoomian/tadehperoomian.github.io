@@ -30,3 +30,13 @@ As a third year student at UCSB, I have taken quite a few upper division Environ
 Before transferring to UCSB, I attended Glendale Community College, from where I earned an A.A. in Liberal Arts: Science and Mathematics Emphasis.
 
 ![](sea_lion.jpg){fig-align="center" width="50%"}
+
+## Professional Development
+
+In my time as a college student, I have had the opportunity to participate in internships and work experiences.
+
+I spent a year as an intern in the Malacology Department of the Los Angeles Natural History Museum, researching the Armina californica sea slug, performing PCR testing, Gel Electrophoresis, and comparing genetics through various software.
+
+I also worked as a Planetarium Presenter at the Glendale Community College Planetarium, where I designed my own presentation and presented them to students from the local elementary and middle schools, guiding them through the Universe.
+
+
