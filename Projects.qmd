@@ -2,7 +2,7 @@
 title: "Projects"
 listing:
   contents: blog_posts
-  type: default
+  type: grid
   sort: "date desc"
 ---
 
