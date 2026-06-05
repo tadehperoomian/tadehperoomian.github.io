@@ -2,6 +2,7 @@
 title: "Isla Vista Tide Pools"
 date: 2026-03-15
 categories: [Marine Biology, UCSB]
+image: tide_pool_profile.jpeg
 ---
 
 My ArcGIS StoryMap on the Isla Vista Tide Pools
