@@ -2,6 +2,4 @@
 title: "Resume"
 ---
 
-My Resume
-
-
+<a href="resume_for_website.jpg" target="_blank">View my resume</a>
