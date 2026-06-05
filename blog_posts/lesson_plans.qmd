@@ -2,7 +2,7 @@
 title: "Lesson Plans"
 date: 2026-06-04
 categories: [Environmental Education, UCSB]
-image: lesson_plans_profile.jpeg
+image: lesson_plan_profile.jpeg
 ---
 
 <a href="lesson_plans_website.pdf" target="_blank">
