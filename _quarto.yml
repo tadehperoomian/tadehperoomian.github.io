@@ -19,7 +19,7 @@ website:
 format:
   html:
     theme:
-      dark: solar
-      light: minty
+      light: [minty, styles.scss]
+      dark: [solar, styles.scss]
     css: styles.css
     toc: true

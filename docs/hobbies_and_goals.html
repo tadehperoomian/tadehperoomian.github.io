@@ -41,10 +41,12 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4397f41838bf6696a92fdfbed53ac40c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-4d72738a521f03bda770c6fbcc444206.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-c8d117f1bb711f09b09868b94ee7a64d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e4aff89870745884cca0a35e9ec57bd7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-c8d117f1bb711f09b09868b94ee7a64d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -231,8 +233,10 @@ ul.task-list li input[type="checkbox"] {
         changeGiscusTheme();
       }
     };
-    const authorPrefersDark = true;
+    const authorPrefersDark = false;
     const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
     // Dark / light mode switch
     window.quartoToggleColorScheme = () => {
@@ -340,8 +344,8 @@ ul.task-list li input[type="checkbox"] {
 <p>I have always been interested in nature and the environment, and I attribute this to my dad, who has traveled with me to every National Park in California and Utah, as well as a few others. I have made it a life mission of mine to visit every National Park in the United States.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-ab1fa80d6a121d095818" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-ab1fa80d6a121d095818">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[37.8651,36.4864,36.8879,36.5323,33.8734,40.4977,41.2132,34.0069,37.2982,37.593,38.7331,38.3269,38.2919,36.1069,34.9099],[-119.5383,-118.5658,-118.5551,-116.9325,-115.901,-121.505,-124.0046,-119.9113,-113.0263,-112.1871,-109.5925,-109.8783,-111.2615,-112.1129,-109.8068],6,null,null,{"interactive":true,"className":"","stroke":true,"color":"blue","weight":5,"opacity":0.5,"fill":true,"fillColor":"blue","fillOpacity":0.7},null,null,["Yosemite National Park","Sequoia National Park","Kings Canyon National Park","Death Valley National Park","Joshua Tree National Park","Lassen Volcanic National Park","Redwood National Park","Channel Islands National Park","Zion National Park","Bryce Canyon National Park","Arches National Park","Canyonlands National Park","Capitol Reef National Park","Grand Canyon National Park","Petrified Forest National Park"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[33.8734,41.2132],"lng":[-124.0046,-109.5925]},"setView":[[38,-112],5,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-bd43ca7341908502efe4" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-bd43ca7341908502efe4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[37.8651,36.4864,36.8879,36.5323,33.8734,40.4977,41.2132,34.0069,37.2982,37.593,38.7331,38.3269,38.2919,36.1069,34.9099],[-119.5383,-118.5658,-118.5551,-116.9325,-115.901,-121.505,-124.0046,-119.9113,-113.0263,-112.1871,-109.5925,-109.8783,-111.2615,-112.1129,-109.8068],6,null,null,{"interactive":true,"className":"","stroke":true,"color":"blue","weight":5,"opacity":0.5,"fill":true,"fillColor":"blue","fillOpacity":0.7},null,null,["Yosemite National Park","Sequoia National Park","Kings Canyon National Park","Death Valley National Park","Joshua Tree National Park","Lassen Volcanic National Park","Redwood National Park","Channel Islands National Park","Zion National Park","Bryce Canyon National Park","Arches National Park","Canyonlands National Park","Capitol Reef National Park","Grand Canyon National Park","Petrified Forest National Park"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[33.8734,41.2132],"lng":[-124.0046,-109.5925]},"setView":[[38,-112],5,[]]},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p>This map shows the locations and names of every National Park I have visited.</p>
