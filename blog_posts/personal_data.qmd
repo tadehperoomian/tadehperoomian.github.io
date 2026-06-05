@@ -1,0 +1,6 @@
+---
+title: "Personal Data Code"
+date: 2026-05-26
+categories: [marine biology, UCSB]
+---
+

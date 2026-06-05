@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+resources:
+  - Resume/**
+
 website:
   title: "Tadeh Peroomian"
   navbar:
@@ -20,6 +23,3 @@ format:
       light: minty
     css: styles.css
     toc: true
-
-
-

@@ -1,7 +1,10 @@
 ---
 title: "Projects"
+listing:
+  contents: blog_posts
+  type: default
+  sort: "date desc"
 ---
 
 My Projects
-
 
