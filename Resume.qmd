@@ -2,6 +2,6 @@
 title: "Resume"
 ---
 
-<a href="Resume/resume_for_website.pdf" target="_blank">
-  View my resume
-</a>
+<div style="height: 100vh;">
+  <iframe src="Resume/resume_for_website.pdf" width="100%" height="100%"></iframe>
+</div>
