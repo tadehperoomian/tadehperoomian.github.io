@@ -25,7 +25,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "My Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLesson Plans\n\n\n\n\n\n\n\n\n\nJun 4, 2026\n\n\n\n\n\n\n\n\n\n\n\nPersonal Data Code\n\n\n\n\n\n\n\n\n\nMay 26, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIsla Vista Tide Pools\n\n\n\n\n\n\n\n\n\nMar 15, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "My Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLesson Plans\n\n\n\n\n\n\n\n\n\nJun 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Data Code\n\n\n\n\n\n\n\n\n\nMay 26, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIsla Vista Tide Pools\n\n\n\n\n\n\n\n\n\nMar 15, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -75,5 +75,12 @@
     "title": "Lesson Plans",
     "section": "",
     "text": "View my Lesson Plans"
+  },
+  {
+    "objectID": "blog_posts/personal_data.html",
+    "href": "blog_posts/personal_data.html",
+    "title": "Personal Data Code",
+    "section": "",
+    "text": "For my personal data project, I asked the question of “Does time of day influence my caffeine consumption?” Thus, I tracked the date and time of each caffeinated drink consumed between Weks 4-9 of the Spring 2026 quarter. On the image below, I graphed the specific time of day vs the amount of drinks consumed, and found that most drinks are consumed around 11am.\n\nCode Chunk for the above image\n\n#mutating times on the data table\ndrink_data &lt;- clean_caffeine |&gt; \n  mutate(hour = as.numeric(format(\n    as.POSIXct(drink_date_and_time, format = \"%m/%d/%Y %I:%M %p\"),\n    \"%H\"\n  )))\n\n#creating drinks per hour count\nhourly_counts &lt;- drink_data |&gt;\n  count(hour, name = \"num_drinks\")\n\n#base layer: ggplot\nggplot(hourly_counts, aes(x = hour, y = num_drinks)) +\n    #second layer: points\n  geom_point(color = \"purple\", size = 3) +\n    #relabeling title and axes\n  labs(title = \"Drink Consumption Peaks at 11AM\",\n       x = \"Hour of Day (24-hour time)\",\n       y = \"Number of Drinks (count)\") +\n   #changing theme from base\n  theme_bw()"
   }
 ]
